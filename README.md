@@ -1,7 +1,7 @@
 
 # Lethargic Solutions:
 <div>
-<img  style="display: inline-block;" src='https://github.com/alpha-alexxx/lethargic-sol-portfolio/blob/main/src/assets/main_logo.svg' width='48px' height='48px'/>Lethargic Solution
+<img  style="display: flex;justify-content:center; align-items:center; font-size:25px; font-weight:600;" src='https://github.com/alpha-alexxx/lethargic-sol-portfolio/blob/main/src/assets/main_logo.svg' width='48px' height='48px'/>Lethargic Solution
 </div>
 
 This is my portfolio website, built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/), styled with [SCSS](https://sass-lang.com/), and with backend integration using [Sanity.io](https://www.sanity.io/).
