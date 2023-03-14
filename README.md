@@ -1,9 +1,9 @@
 
 # Lethargic Solutions:
+<img src='https://github.com/alpha-alexxx/lethargic-sol-portfolio/blob/main/src/assets/main_logo.svg' width='48px' height='48px'/>
 
 This is my portfolio website, built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/), styled with [SCSS](https://sass-lang.com/), and with backend integration using [Sanity.io](https://www.sanity.io/).
 
-<img src='https://api.netlify.com/api/v1/badges/843c83b2-e565-4392-850f-9f0628857e00/deploy-status' width='24px' height='24px'/>
 
 
 ## Status and Demo
