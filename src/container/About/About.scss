@@ -1,0 +1,82 @@
+.app__about {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+ 
+}
+.app__profiles {
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 767px) and (max-width: 1024px) {
+    width: 36rem;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    width: 48rem;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1921px) {
+    width: 68rem;
+  }
+
+  overflow-y: none;
+  display: flex;
+  flex-direction: row;
+  &-slider {
+    display: flex;
+    overflow-x: scroll;
+    
+    .app__profile-item {
+      min-width: 270px;
+
+      margin: 2rem;
+      padding: 1rem;
+
+      display: flex;
+      flex-direction: column;
+
+      border-radius: 10px;
+      border: 0.3px solid rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+      img {
+        width: 100%;
+        height: 170px;
+        border-radius: 15px;
+        object-fit: cover;
+      }
+      @media screen and (max-width: 768px) {
+        margin: 0.8rem;
+      }
+      @media screen and (min-width: 2000px) {
+        width: 370px;
+        margin: 2rem 4rem;
+        img {
+          height: 320px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0rem;
+  }
+}
+
+.app__profile-btns {
+  height: 100px;
+
+  div {
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    svg {
+      color: var(--white-color);
+      font-size: 1.2rem;
+      max-width: 2rem;
+      max-height: 2rem;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --font-base: "DM Sans", sans-serif;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  user-select: none;
+  overflow-y: none;
+}
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 7px;
+  /* Set the width of the scrollbar */
+}
+
+/* Style the thumb (the draggable bar) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  /* Set the color of the thumb */
+  border-radius: 10px;
+  /* Set the border radius of the thumb */
+}
+
+/* Style the track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+  background-color: var(--lightGray-color);
+  /* Set the color of the track */
+  border-radius: 10px;
+  /* Set the border radius of the track */
+}
+
+/* Style the corner where the vertical and horizontal scrollbars meet */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+  /* Set the color of the corner */
+}
